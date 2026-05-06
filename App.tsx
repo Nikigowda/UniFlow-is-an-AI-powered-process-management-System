@@ -1,3 +1,4 @@
+// Main application entry point for UniFlow AI Process Management
 import React, { useState } from 'react';
 import { Sidebar } from './components/Sidebar';
 import { DefectProcess } from './components/DefectProcess';
