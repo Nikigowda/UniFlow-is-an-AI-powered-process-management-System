@@ -27,7 +27,11 @@ function App() {
             <>
                 {currentProcess === ProcessType.DEFECT && <DefectProcess />}
                 {currentProcess === ProcessType.RECRUITMENT && <RecruitmentProcess />}
+                <footer style={{ textAlign: 'center', padding: '10px', marginTop: '20px', color: 'gray', fontSize: '12px' }}>
+  © 2026 UniFlow | AI-Powered Process Management System
+</footer>
             </>
+            
         )}
       </main>
     </div>
